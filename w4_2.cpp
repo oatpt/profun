@@ -8,7 +8,7 @@ main()
 {
     scanf("%[^\n]", name);
     int num=strlen(name);
-    for(int i = 0; i+2<strlen(name);i+=3)
+    for(int i = 0; i+2<num;i+=3)
     {
         for(int j = 0;j<3;j++)
         {
