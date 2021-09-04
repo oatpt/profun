@@ -1,9 +1,7 @@
-#include <vector>
 #include <string.h>
 #include <stdio.h>
 using namespace std;
 char name[1000000],temp[100];
-vector <char> ans;
 main()
 {
     scanf("%[^\n]", name);
@@ -38,7 +36,6 @@ main()
                 printf("/");
         }
     }
-   
     if(num%3==2)
     {
         int now=strlen(name)-2;
